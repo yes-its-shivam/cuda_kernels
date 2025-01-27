@@ -37,7 +37,6 @@ int main(){
     cudaFree(d_B);
     cudaFree(d_C);
 
-    // Free host memory
     delete[] A;
     delete[] B;
     delete[] C;
